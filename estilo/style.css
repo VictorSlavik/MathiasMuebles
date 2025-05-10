@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: "madera";
+    src: url("/Fuentes/especial/TEXASWOOD\ PERSONAL\ USE.ttf") format("opentype");
+}
+
+:root{
+    --cor01:#EC9A53 ;
+    --cor02: #CA8447;
+    --cor03 :#A86E3B;
+    --cor04 :#86582F;
+    --cor05 :#644223;
+
+   
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --Fonte-destaque: "bebas neue", cursive;
+    --font-madeira:"madera", cursive;
+    
+
+}
+
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white;
+    color:#644223;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+header >h1{
+    font-family: var(--font-madeira);
+}
+nav {
+    background-color: var(--cor03);
+ 
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--Fonte-destaque);
+    
+}
+
+body {
+    background-color: var(--cor05);
+    margin: -1px;
+   
+    
+}
+img {
+    max-width: 500px;
+}
+video {
+    width: 300px;
+}
+main {
+   
+    background-color: var(--cor05)
+
+}
+main h1{
+    font-family: var(--font-madeira);
+    color: var(--cor05);
+    font-size: 50px;
+}
+main h2 {
+    font-family: var(--font-madeira);
+    color: var(--cor05);
+    font-size: 50px;
+}
+main h3 {
+    font-family: var(--font-madeira);
+    color:var(--cor05);
+    font-size: 50px;
+}
+
+article {
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: var(--font-padrao);
+}
+footer {
+    text-align: center;
+    background-color: #EC9A53;
+    color: white;
+    font-size: 20px;
+}
