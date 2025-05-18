@@ -55,15 +55,12 @@ img {
     width: 100%;
 }
 video {
-    width: 300px;
+    width: 100%;
 }
 main {
-    border-radius:10px;
-    padding: 20px;
+    
     background-color: var(--cor05);
-    min-width: 320px;
-    max-width: 800px;
-    margin: auto;
+   
    
     
 
@@ -87,8 +84,12 @@ main h3 {
 article {
     background-color: white;
     text-align: center;
-    margin: 20px;
     font-family: var(--font-padrao);
+     min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius:10px;
+    padding: 20px;
 }
 footer {
     text-align: center;
