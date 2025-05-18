@@ -35,6 +35,7 @@ header >h1{
     font-family: var(--font-madeira);
 }
 nav {
+    border-radius:30px;
     background-color: var(--cor03);
  
     text-align: center;
