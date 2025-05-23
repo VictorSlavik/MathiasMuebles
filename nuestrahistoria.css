@@ -1,0 +1,38 @@
+@charset "UTF-8";
+:root{
+    --cor01:#EC9A53 ;
+    --cor02: #CA8447;
+    --cor03 :#A86E3B;
+    --cor04 :#86582F;
+    --cor05 :#644223;
+
+   
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --Fonte-destaque: "bebas neue", cursive;
+    --font-madeira:"madera", cursive;
+    
+
+}
+
+main {
+    padding: 3px 2px;
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor04));
+    box-shadow:  2px 3px 2px 3px black;
+    
+}
+h1 {
+     font-family: var(--font-madeira);
+    color: var(--cor05);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 5px rgb(29, 28, 28);
+}
+p {
+    font-family: var(--font-padrao);
+}
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
