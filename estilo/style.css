@@ -116,6 +116,22 @@ article {
     padding: 20px;
     box-shadow: 0px 0px 15px black;
 }
+#redsocialW {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 130px;
+}
+#redsocialF {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+}
+
+
 footer {
     text-align: center;
     background-color: #EC9A53;
