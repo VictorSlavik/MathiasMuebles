@@ -34,6 +34,12 @@ nav > a {
 nav > a:hover {
     color: #EC9A53;
 }
+.galeria {
+    
+    width: 10%;
+
+
+}
 #redsocialW {
     position: fixed;
     width:30px;
