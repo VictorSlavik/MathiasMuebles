@@ -110,12 +110,27 @@ article {
     background-color: white;
    
     font-family: var(--font-padrao);   
-    max-width: 1020px;
-    margin: auto;
+    
     border-radius:10px;
     padding: 20px;
     box-shadow: 0px 0px 15px black;
 }
+p {
+    text-indent: 50px;
+    text-align: justify;
+
+}
+p.intro {
+    font-family: var(--font-madeira);
+    font-size: 20px;
+}
+ul.intro {
+    padding: 4px;
+    font-family: var(--font-madeira);
+    font-size: 19px;
+    
+}
+
 #redsocialW {
     position: fixed;
     width: 60px;
@@ -129,6 +144,15 @@ article {
     height: 60px;
     bottom: 40px;
     right: 40px;
+}
+aside{
+    font-family: var(--font-madeira);
+    font-size: 20px;
+    background-color: var(--cor05);
+    color: white;
+    border-radius: 20px;
+    text-shadow:1px 5px black;
+    
 }
 
 
