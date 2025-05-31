@@ -108,9 +108,9 @@ main h3 {
 
 article {
     background-color: white;
-   
+    max-width: 1020px;
     font-family: var(--font-padrao);   
-    
+    margin: auto;
     border-radius:10px;
     padding: 20px;
     box-shadow: 0px 0px 15px black;
@@ -123,6 +123,9 @@ p {
 p.intro {
     font-family: var(--font-madeira);
     font-size: 20px;
+}
+span {
+    font-weight: bold;
 }
 ul.intro {
     padding: 4px;
@@ -147,10 +150,11 @@ ul.intro {
 }
 aside{
     font-family: var(--font-madeira);
+    padding: 7px;
     font-size: 20px;
     background-color: var(--cor05);
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     text-shadow:1px 5px black;
     
 }
@@ -160,5 +164,9 @@ footer {
     text-align: center;
     background-color: #EC9A53;
     color: white;
-    font-size: 20px;
+    font-size: 40px;
+}
+strong {
+    font-weight: bolder;
+    color: black;
 }

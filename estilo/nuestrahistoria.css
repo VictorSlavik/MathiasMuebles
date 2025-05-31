@@ -62,12 +62,18 @@ p {
     text-align: justify;
 
 }
+body {
+
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
+}
 
 
 main {
     padding: 3px 2px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor04));
     box-shadow:  2px 3px 2px 3px black;
+    width: 1020px;
+    margin: auto;
     
 }
 h1 {
