@@ -70,7 +70,7 @@ body {
 
 main {
 
-    background-image: linear-gradient(to bottom, var(--cor01), var(--cor04));
+    background-image: linear-gradient(to bottom, var (--cor05), var(--cor01));
     
     
 }
