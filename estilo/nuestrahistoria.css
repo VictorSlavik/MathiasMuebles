@@ -69,11 +69,18 @@ body {
 
 
 main {
-    padding: 3px 2px;
+
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor04));
-    box-shadow:  2px 3px 2px 3px black;
-    width: 1020px;
+    
+    
+}
+article {
+    max-width: 900px;
     margin: auto;
+    font-family: var(--font-padrao);
+    border-radius:10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
     
 }
 h1 {
