@@ -45,6 +45,9 @@ header >h1{
    
     
 }
+header > p {
+    text-align: center;
+}
 nav {
     background-color: var(--cor03);
     padding: 10px;
