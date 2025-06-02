@@ -101,6 +101,12 @@ h3 {
 }
 p {
     font-family: var(--font-padrao);
+    margin:  15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;
+
+
 }
 img {
     display: block;
